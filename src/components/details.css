@@ -1,0 +1,29 @@
+.leagueContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eachLeague{
+    border: solid 1px midnightblue;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eachLeague > a > img{
+    width: 160px;
+    height: 120px;
+}
+.eachLeague > a {
+    text-decoration: none;
+    color: black;
+
+}
+.eachLeague > a:visited {
+    color: black;
+}
+.eachLeague > a:hover {
+    color: midnightblue;
+}

@@ -1,0 +1,54 @@
+.flagContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+}
+.flags{
+    width: 160px;
+    height: 160px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.flags > a > img{
+    width: 160px;
+    height: 120px;
+}
+
+.flags > a > h4{
+    margin: 0px;   
+}
+.flags > img{
+    width: 160px;
+    height: 120px;
+}
+
+.flags > h4{
+    margin: 0px;
+}
+
+.flags > a {
+    text-decoration: none;
+    color: black;
+
+}
+.flags > a:visited {
+    color: black;
+}
+.flags > a:hover {
+    color: midnightblue;
+}
+
+.searchBar {
+    width: 70%
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
