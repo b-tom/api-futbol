@@ -20,7 +20,7 @@ export default class OneTeam extends Component {
             <div key={team.team_id} className={`team ${this.state.showDetails ? 'expanded': ''}`} >
                 <img src={team.logo} alt={team.name} />
                 <h6>{team.name}</h6>
-                <button onClick={(e) => this.showDetails(e)}>
+                <button className='btn btn-link' onClick={(e) => this.showDetails(e)}>
                     {this.state.showDetails ? 'Collapse Details' : 'Show Details'}
                 </button>
                 {this.state.showDetails ? <h6><b>Games Played: </b>{standings[0].all.matchsPlayed}</h6> : ''}
